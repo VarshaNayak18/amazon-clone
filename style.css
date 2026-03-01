@@ -21,8 +21,10 @@
 }
 
 .logo{
-    background-image: url("images/amazon-logo.jpg");
-    background-size: cover;
+    background-image: url("images/amazon_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 50px;
     width: 100%;
     margin-left: 0px;
@@ -172,6 +174,10 @@ span{
     color: #007185;
 }
 
+.hero-msg a:hover{
+    text-decoration: underline;
+}
+
 /* shop-section */
 
 .shop-section{
@@ -192,12 +198,12 @@ span{
 
 .box-img{
     width: 100%;
-    height: 300px;
+    height: 250px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 0.7rem;
-    margin-bottom: 0.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .box-content{
@@ -211,5 +217,82 @@ span{
     font-size: 14px;
 }
 
+.box-content p:hover{
+    text-decoration: underline ;
+}
+
+
 /* footer */
 
+footer{
+    margin-top: 15px;
+}
+
+.footer-panel1{
+    display: flex;
+    height: 50px;
+    background-color: #37475a;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.footer-panel2{
+    background-color: #222f3d;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-panel2 p{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+ul a{
+    font-size: 14px;
+    color: #dddddd;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer-panel2 a:hover{
+    text-decoration: underline ;
+}
+
+.footer-panel3{
+    background-color: #222f3d;
+    border-top: 1px solid #3a4553; 
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo{
+    background-image: url("images/amazon_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 100px;
+}
+
+.footer-panel4{
+    background-color: #0f1111;
+    color: #dddddd;
+    height: 76px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.copyright{
+    padding-top: 5px;
+}
