@@ -171,3 +171,45 @@ span{
 .hero-msg a{
     color: #007185;
 }
+
+/* shop-section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    /* border: 2px solid black; */
+    width: 23%;
+    height: 350px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 15px;
+}
+
+.box-img{
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0.7rem;
+    margin-bottom: 0.3rem;
+}
+
+.box-content{
+    margin-left: 13px;
+    margin-right: 13px;
+    font-size: 14px;
+}
+
+.box-content p{
+    color: #007185;
+    font-size: 14px;
+}
+
+/* footer */
+
